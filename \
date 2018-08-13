@@ -1,0 +1,11 @@
+---
+-  hosts: webserver
+   user: test
+   sudo: yes
+     tasks:
+       -name: installing package through loops
+        yum: name={{item}} state=installed
+        with-item:
+           -curl
+           -httpd
+           -telnet

@@ -1,0 +1,11 @@
+---
+-  hosts: server2.abc.com
+   user: sravan
+   tasks:
+       name: stop tomcat
+       command: nohub /usr/local/apache-tomcat-7.0.70/bin/catalina.sh stop
+       name: copy war file
+       copy: src=/opt/test/webproject.war dest=/usr/local/apache-tomcat-7.0.70/webapps/
+       name: start tomcat
+       command: nohub /usr/local/apache-tomcat-7.0.70/bin/catalina.sh start
+

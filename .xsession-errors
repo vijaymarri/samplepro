@@ -1,0 +1,29 @@
+GNOME_KEYRING_SOCKET=/tmp/keyring-XsF0Wf/socket
+SSH_AUTH_SOCK=/tmp/keyring-XsF0Wf/socket.ssh
+gnome-session[2890]: WARNING: Could not launch application 'linc-cleanup-sockets.desktop': Unable to start application: Failed to execute child process "/usr/bin/linc-cleanup-sockets" (No such file or directory)
+Failed to play sound: File or data not found
+
+(polkit-gnome-authentication-agent-1:3006): GLib-GObject-WARNING **: cannot register existing type `_PolkitError'
+
+(polkit-gnome-authentication-agent-1:3006): GLib-CRITICAL **: g_once_init_leave: assertion `initialization_value != 0' failed
+** Message: applet now removed from the notification area
+(null):  Warning no default label for /home/sravan/.gvfs
+Initializing nautilus-gdu extension
+Initializing nautilus-open-terminal extension
+** Message: applet now embedded in the notification area
+Warning! /home/sravan/.Xauthority-l refers to a file with more than one hard link, not fixing hard links.
+gnome-session: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+gnome-settings-daemon: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+Window manager warning: Fatal IO error 11 (Resource temporarily unavailable) on display ':0'.
+gnome-panel: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+nautilus: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+gnome-volume-control-applet: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+nm-applet: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+gpk-update-icon: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+gnome-screensaver: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+bluetooth-applet: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+polkit-gnome-authentication-agent-1: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+gdu-notification-daemon: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+gnome-power-manager: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+applet.py: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+gnome-terminal: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.0.

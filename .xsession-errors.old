@@ -1,0 +1,32 @@
+GNOME_KEYRING_SOCKET=/tmp/keyring-uOfiz5/socket
+SSH_AUTH_SOCK=/tmp/keyring-uOfiz5/socket.ssh
+Failed to play sound: File or data not found
+gnome-session[2888]: WARNING: Could not launch application 'linc-cleanup-sockets.desktop': Unable to start application: Failed to execute child process "/usr/bin/linc-cleanup-sockets" (No such file or directory)
+
+(polkit-gnome-authentication-agent-1:3021): GLib-GObject-WARNING **: cannot register existing type `_PolkitError'
+
+(polkit-gnome-authentication-agent-1:3021): GLib-CRITICAL **: g_once_init_leave: assertion `initialization_value != 0' failed
+** Message: applet now removed from the notification area
+(null):  Warning no default label for /home/sravan/.gvfs
+Initializing nautilus-gdu extension
+Initializing nautilus-open-terminal extension
+** Message: applet now embedded in the notification area
+
+(nautilus:2952): Nautilus-GDU-WARNING **: unable to query info: The specified location is not supported
+
+
+(nautilus:2952): Nautilus-GDU-WARNING **: unable to query info: The specified location is not supported
+
+
+(nautilus:2952): Nautilus-GDU-WARNING **: unable to query info: The specified location is not supported
+
+gnome-session: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+Window manager warning: Fatal IO error 11 (Resource temporarily unavailable) on display ':0'.
+** Message: <info>  disconnected by the session bus.
+
+gnome-settings-daemon: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+bluetooth-applet: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+nm-applet: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+gnome-screensaver: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+polkit-gnome-authentication-agent-1: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+gdu-notification-daemon: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.

@@ -1,0 +1,14 @@
+---
+- hosts: webserver
+  user: sravan
+  sudo: yes
+  gather-facts: yes
+
+       Tasks:
+          - name: installing httpd package
+            yum: name=httpd state=installed
+            when: ansible_os_family=="Redhat"
+          - name: installing apache2 package
+            apt: name=apache state=installed
+            when: ansible_os_family=="Debean"
+

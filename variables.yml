@@ -1,0 +1,19 @@
+---
+- hosts: server2.abc.com
+  user: sravan
+  sudo: yes
+    vars:
+      var1: curl
+    vars-files:
+        - abc.yml
+    vars-promt:
+       - promt: enter variable name
+          name: vars
+        private: yes
+      tasks:
+        - name: installing package through varibales
+          yum: name={{var1}} state=installed
+        - name: installing package from an external file
+          yum: name={{var2}} state=installed
+        - name: installing package at runtime
+          yum: name={{var3}} state=installed  
