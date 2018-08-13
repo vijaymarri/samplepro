@@ -248,3 +248,39 @@ git remote -v
 cd
 poweroff
 exit
+ls
+git barnch
+git branch
+mkdir sravangit
+git init
+git config --global user.name "vijaymarri"
+git config --global user.email "mvkr040@gmail.com"
+git branch
+git configlist
+git configv --list
+git config --list
+touch file {1..10}
+git add >
+git add .
+git commit -m "all"
+git log
+git branch sravan
+git branch
+git clone
+git clone git@github.com:vijaymarri/samplepro.git
+git remote add origin git@github.com:vijaymarri/samplepro.git
+git remote
+git remote -v
+git push -u origin master
+ls
+vi laxman
+git add .
+git status
+git commit -m "laxman commit" laxman
+git push -u origin master
+git status
+git commit -m "success"
+git push -u origin master
+ls
+cat laxman 
+cat >> laxman
